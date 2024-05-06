@@ -3,6 +3,8 @@
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 
+import { app } from "./app.js";
+ 
 dotenv.config({
   path: "./env",
 });
@@ -23,8 +25,7 @@ connectDB()
 
 /*
 NOOB Method
-import express from "express";
-const app = express();
+
 (async () => {
   try {
     await mongoose.connect(`${process.env.DATABASE_URL}/${DB_name}`);
