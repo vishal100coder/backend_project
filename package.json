@@ -1,0 +1,16 @@
+{
+  "name": "chai-aur-backend-project",
+  "version": "1.0.0",
+  "description": "project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chai",
+    "backend",
+    "backend"
+  ],
+  "author": "Vishal Kumar Singh",
+  "license": "ISC"
+}
